@@ -1,3 +1,6 @@
+rails new my_first_app
+bundle install
+
 rails generate model Movie name:string year:integer genre:string synopsis:text director:string allocine_rating:float my_rating:integer already_seen:boolean
 
 rails db:migrate
